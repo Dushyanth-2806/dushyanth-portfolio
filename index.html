@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dushyanth Portfolio</title>
+<meta name="description" content="M Dushyanth — Computer Science Graduate | Software Developer | Python, C#, SQL, ML & Web Development" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- ===== Loader ===== -->
+<div class="loader" id="loader">
+  <span class="loader__bracket">&lt;</span>
+  <span class="loader__dot"></span>
+  <span class="loader__bracket">/&gt;</span>
+</div>
+
+<!-- ===== Custom cursor glow ===== -->
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- ===== Nav ===== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#home" class="nav__brand"><span class="brand-mono">&lt;</span>M.Dushyanth<span class="brand-mono">/&gt;</span></a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#home" class="nav__link active-link">Home</a>
+      <a href="#about" class="nav__link">About</a>
+      <a href="#skills" class="nav__link">Skills</a>
+      <a href="#projects" class="nav__link">Projects</a>
+      <a href="#education" class="nav__link">Education</a>
+      <a href="#contact" class="nav__link">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav__cta">Hire Me</a>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<!-- ===== Hero ===== -->
+<section class="hero" id="home">
+  <div class="hero__bg" aria-hidden="true">
+    <div class="grid-overlay"></div>
+    <div class="glow glow--1"></div>
+    <div class="glow glow--2"></div>
+  </div>
+
+  <div class="hero__inner">
+    <div class="hero__text">
+      <p class="eyebrow"><span class="eyebrow__dot"></span>Available for opportunities</p>
+      <h1 class="hero__title">
+        Hi, I'm <span class="text-accent">M Dushyanth</span>
+      </h1>
+      <div class="hero__role">
+        <span class="role-prefix">$</span>
+        <span id="typedRole" class="role-text"></span><span class="cursor-blink">|</span>
+      </div>
+      <p class="hero__desc">
+        A Computer Science graduate who builds clean, functional software —
+        from Python scripts and machine learning models to full web applications.
+        Curious, detail-driven, and always shipping something new.
+      </p>
+
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">View Projects</a>
+        <a href="#contact" class="btn btn--ghost">Get In Touch</a>
+      </div>
+
+      <div class="hero__meta">
+        <div class="meta-item">
+          <span class="meta-item__label">Email</span>
+          <a href="mailto:dushyanthm2806@gmail.com" class="meta-item__value">dushyanthm2806@gmail.com</a>
+        </div>
+        <div class="meta-item">
+          <span class="meta-item__label">Phone</span>
+          <a href="tel:+919014840377" class="meta-item__value">+91 90148 40377</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__visual">
+      <div class="photo-frame">
+        <div class="photo-frame__glow"></div>
+        <img src="assets/images/dushyanth.jpg" alt="M Dushyanth" class="photo-frame__img" />
+        <div class="photo-frame__tag photo-frame__tag--top">
+          <span class="tag-dot"></span> Software Developer
+        </div>
+        <div class="photo-frame__tag photo-frame__tag--bottom">
+          CS Graduate · 21
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-hint" aria-label="Scroll down">
+    <span></span>
+  </a>
+</section>
+
+<!-- ===== About ===== -->
+<section class="section" id="about">
+  <div class="section__inner">
+    <p class="section__eyebrow">01 · About</p>
+    <h2 class="section__title">Building software with purpose &amp; precision</h2>
+
+    <div class="about__grid">
+      <div class="about__text">
+        <p>
+          I'm M Dushyanth, a Computer Science graduate who enjoys turning ideas into working software.
+          My interest in technology started with curiosity about how applications actually work under
+          the hood, and it grew into a genuine passion for writing clean code and solving real problems.
+        </p>
+        <p>
+          I work comfortably across <strong>Python</strong>, <strong>C#</strong>, and <strong>SQL</strong>
+          for backend logic and data handling, and <strong>HTML, CSS &amp; JavaScript</strong> for building
+          responsive, user-friendly web interfaces. I'm also exploring <strong>Machine Learning</strong>,
+          applying it to practical problems and learning how data-driven systems are designed and deployed.
+        </p>
+        <p>
+          As a fresher, I bring strong fundamentals, an eagerness to learn fast, and the discipline to see
+          projects through from idea to deployment. I'm looking for an opportunity where I can contribute
+          to real products, learn from experienced teams, and keep growing as a developer.
+        </p>
+
+        <div class="about__stats">
+          <div class="stat">
+            <span class="stat__num">6+</span>
+            <span class="stat__label">Languages &amp; Tools</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">CS</span>
+            <span class="stat__label">Degree Graduate</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">100%</span>
+            <span class="stat__label">Committed to Growth</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about__panel">
+        <div class="code-card">
+          <div class="code-card__head">
+            <span class="dot dot--red"></span><span class="dot dot--yellow"></span><span class="dot dot--green"></span>
+            <span class="code-card__title">profile.py</span>
+          </div>
+          <pre class="code-card__body"><span class="c-key">class</span> <span class="c-cls">Developer</span>:
+    <span class="c-key">def</span> <span class="c-fn">__init__</span>(<span class="c-var">self</span>):
+        <span class="c-var">self</span>.name = <span class="c-str">"M Dushyanth"</span>
+        <span class="c-var">self</span>.role = <span class="c-str">"CS Graduate"</span>
+        <span class="c-var">self</span>.age  = <span class="c-num">21</span>
+        <span class="c-var">self</span>.stack = [
+            <span class="c-str">"Python"</span>, <span class="c-str">"C#"</span>,
+            <span class="c-str">"SQL"</span>, <span class="c-str">"JavaScript"</span>
+        ]
+        <span class="c-var">self</span>.focus = <span class="c-str">"ML & Web Dev"</span>
+
+    <span class="c-key">def</span> <span class="c-fn">say_hi</span>(<span class="c-var">self</span>):
+        <span class="c-key">return</span> <span class="c-str">"Let's build something!"</span></pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Skills ===== -->
+<section class="section section--alt" id="skills">
+  <div class="section__inner">
+    <p class="section__eyebrow">02 · Skills</p>
+    <h2 class="section__title">Technologies I work with</h2>
+
+    <div class="skills__grid" id="skillsGrid">
+      <!-- populated by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ===== Projects ===== -->
+<section class="section" id="projects">
+  <div class="section__inner">
+    <p class="section__eyebrow">03 · Projects</p>
+    <h2 class="section__title">Things I've built</h2>
+    <p class="section__sub">A few projects that reflect how I learn and apply new technologies.</p>
+
+    <div class="projects__grid">
+
+      <article class="project-card">
+        <div class="project-card__top">
+          <span class="project-card__icon">🧠</span>
+          <div class="project-card__tags">
+            <span class="tag">Python</span><span class="tag">ML</span>
+          </div>
+        </div>
+        <h3 class="project-card__title">Predictive Analytics Model</h3>
+        <p class="project-card__desc">
+          A machine learning model built with Python to analyze structured data and predict outcomes,
+          covering data cleaning, feature engineering, and model evaluation.
+        </p>
+        <div class="project-card__foot">
+          <span class="project-card__link">Python · Pandas · Scikit-learn</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card__top">
+          <span class="project-card__icon">🗂️</span>
+          <div class="project-card__tags">
+            <span class="tag">C#</span><span class="tag">SQL</span>
+          </div>
+        </div>
+        <h3 class="project-card__title">Student Management System</h3>
+        <p class="project-card__desc">
+          A desktop application built with C# and SQL to manage student records, attendance,
+          and grades with a clean, form-based interface and reliable data storage.
+        </p>
+        <div class="project-card__foot">
+          <span class="project-card__link">C# · SQL Server · WinForms</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card__top">
+          <span class="project-card__icon">🌐</span>
+          <div class="project-card__tags">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+          </div>
+        </div>
+        <h3 class="project-card__title">Personal Portfolio Website</h3>
+        <p class="project-card__desc">
+          A fully responsive personal website built from scratch with semantic HTML, modern CSS
+          and vanilla JavaScript — including this one you're looking at right now.
+        </p>
+        <div class="project-card__foot">
+          <span class="project-card__link">HTML5 · CSS3 · JavaScript</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== Education ===== -->
+<section class="section section--alt" id="education">
+  <div class="section__inner">
+    <p class="section__eyebrow">04 · Education</p>
+    <h2 class="section__title">Academic background</h2>
+
+    <div class="timeline">
+      <div class="timeline__item">
+        <div class="timeline__marker"></div>
+        <div class="timeline__content">
+          <h3>Bachelor's Degree in Computer Science</h3>
+          <p>Focused on programming fundamentals, data structures &amp; algorithms, databases,
+             and software engineering — building a strong foundation for a career in development.</p>
+        </div>
+      </div>
+      <div class="timeline__item">
+        <div class="timeline__marker"></div>
+        <div class="timeline__content">
+          <h3>Higher Secondary Education</h3>
+          <p>Completed schooling with a focus on Mathematics and Computer Science,
+             sparking an early interest in problem-solving and technology.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Contact ===== -->
+<section class="section" id="contact">
+  <div class="section__inner">
+    <p class="section__eyebrow">05 · Contact</p>
+    <h2 class="section__title">Let's build something together</h2>
+    <p class="section__sub">
+      I'm actively looking for opportunities as a software developer. Feel free to reach out —
+      I usually reply within a day.
+    </p>
+
+    <div class="contact__grid">
+      <div class="contact__cards">
+        <a href="mailto:dushyanthm2806@gmail.com" class="contact-card">
+          <span class="contact-card__icon">✉️</span>
+          <div>
+            <span class="contact-card__label">Email</span>
+            <span class="contact-card__value">dushyanthm2806@gmail.com</span>
+          </div>
+        </a>
+        <a href="tel:+919014840377" class="contact-card">
+          <span class="contact-card__icon">📞</span>
+          <div>
+            <span class="contact-card__label">Phone</span>
+            <span class="contact-card__value">+91 90148 40377</span>
+          </div>
+        </a>
+        <div class="contact-card contact-card--static">
+          <span class="contact-card__icon">🎂</span>
+          <div>
+            <span class="contact-card__label">Age</span>
+            <span class="contact-card__value">21 Years</span>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact__form" id="contactForm">
+        <div class="form-row">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What's this about?" required />
+        </div>
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--block">Send Message</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="footer__inner">
+    <a href="#home" class="nav__brand"><span class="brand-mono">&lt;</span>M.Dushyanth<span class="brand-mono">/&gt;</span></a>
+    <div class="footer__socials">
+      <a href="mailto:dushyanthm2806@gmail.com" aria-label="Email">✉️</a>
+      <a href="tel:+919014840377" aria-label="Phone">📞</a>
+    </div>
+    <p class="footer__copy">© 2026 M DUSHYANTH. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
