@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const skills = [
     { name: "Python", icon: "🐍", level: 85 },
     { name: "SQL", icon: "🗄️", level: 80 },
-    { name: "HTML5", icon: "🧱", level: 90 },
+    { name: "HTML", icon: "🧱", level: 90 },
     { name: "CSS3", icon: "🎨", level: 85 },
     { name: "JavaScript", icon: "⚡", level: 78 },
     { name: "Machine Learning", icon: "🧠", level: 65 },
