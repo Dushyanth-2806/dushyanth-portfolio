@@ -103,7 +103,6 @@ document.addEventListener("DOMContentLoaded", () => {
   /* ---------- Skills data + render ---------- */
   const skills = [
     { name: "Python", icon: "🐍", level: 85 },
-    { name: "C#", icon: "🎯", level: 75 },
     { name: "SQL", icon: "🗄️", level: 80 },
     { name: "HTML5", icon: "🧱", level: 90 },
     { name: "CSS3", icon: "🎨", level: 85 },
